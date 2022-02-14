@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>28-PS23729-thiện - FPT Polytechnic</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        .all {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .dangki {
+            width: 1200px;
+            height: 550px;
+            background-image: url(Image/Banner2.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        form {
+            padding: 10px;
+            width: 35%;
+            height: 550px;
+            margin: 0px auto;
+            background-color: rgb(245, 243, 243);
+            opacity: 0.85;
+            margin-top: 26px;
+            border-radius: 5px;
+        }
+
+        .dangki a {
+            border: 1px solid black;
+            box-shadow: 30px;
+            width: 80px;
+            padding: 10px 20px;
+            color: black;
+            text-decoration: none;
+        }
+        .dangki a:hover {
+            background-color: gray;
+            color: aliceblue;
+            transform: scale(1.1);
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <ul class="header-info">
+                <li><a href="HOME.html">TRANG CHỦ</a></li>
+                <li><a href="GioiThieu.html">GIỚI THIỆU</a></li>
+                <li><a href="Sanpham.html">SẢN PHẨM</a>
+                <li><a href="TinTuc.html">TIN TỨC</a></li>
+                <li><a href="LienHe.html">LIÊN HỆ</a></li>
+                <li><a href="Form.html">THÊM ĐỊA CHỈ NHẬN HÀNG</a></li>
+                <input type="search" placeholder="Tìm Kiếm...">
+            </ul>
+        </header>
+        <div class="all">
+            <div class="dangki">
+                <form>
+                    <h3>Họ Và Tên</h3>
+                    <input type="text" placeholder="Họ Và Tên">
+                    <br>
+                    <h3>Size</h3>
+                    <input type="checkbox" name="size">
+                    <label for="size">35</label>
+                    <input type="checkbox" name="size">
+                    <label for="size">36</label>
+                    <input type="checkbox" name="size">
+                    <label for="size">37</label>
+                    <input type="checkbox" name="size">
+                    <label for="size">38</label>
+                    <br>
+                    <input type="checkbox" name="size">
+                    <label for="size">39</label>
+                    <input type="checkbox" name="size">
+                    <label for="size">40</label>
+                    <input type="checkbox" name="size">
+                    <label for="size">41</label>
+                    <input type="checkbox" name="size">
+                    <label for="size">42</label>
+                    <br>
+                    <h3>Giới Tính</h3>
+                    <input type="radio" name="gioitinh">
+                    <label for="gioitinh">Nam</label>
+                    <input type="radio" name="gioitinh">
+                    <label for="gioitinh">Nữ</label>
+                    <br>
+                    <label for="file">Hình ảnh</label>
+                    <input type="file">
+                    <br>
+                    <h3>Địa chỉ nhận hàng</h3>
+                    <select>
+                        <option value="vietnam">Việt Nam</option>
+                        <option value="lao">Lào</option>
+                        <option value="trungquoc">Trung Quốc</option>
+                        <option value="nhatban">Nhật Bản</option>
+                        <option value="campuchia">Campuchia</option>
+                    </select>
+                    <h3>Địa chỉ cụ thể</h3>
+                    <textarea name="ghichu" rows="5" cols="40"></textarea>
+                    <br>
+                    <h3><a href="#">Đặt hàng</a></h3>
+                    
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="information">
+                <div class="lienhe">
+                    <h3>LIÊN HỆ:</h3>
+                    <p><i class="Email"> Email: nikestore@gmail.com</i><br>
+                        <i class="phone"> Hotline: 090 909 0909</i>
+                        <br>
+                        <i class="dc">Việt Nam</i>
+                    </p>
+                </div>
+                <div class="lienhe">
+                    <h3>GET HELP</h3>
+                    <p>Order Status</p>
+                    <p>Delivery</p>
+                    <p>Returns</p>
+                    <p>Payment Options</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
